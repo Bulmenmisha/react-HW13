@@ -1,0 +1,31 @@
+.count {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #777;
+}
+
+.list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.empty {
+  text-align: center;
+  color: #666;
+}
+
+.reset {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background: #4f46e5;
+}
